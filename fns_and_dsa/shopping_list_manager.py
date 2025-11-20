@@ -1,5 +1,5 @@
-def display_menu():
-    print("\nShopping List Manager")
+\def display_menu():
+    print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
@@ -26,7 +26,7 @@ def main():
                 print(f"'{item}' not found in the list.")
 
         elif choice == '3':
-            print("\nCurrent Shopping List:")
+            print("Current Shopping List:")
             if len(shopping_list) == 0:
                 print("The shopping list is empty.")
             else:
